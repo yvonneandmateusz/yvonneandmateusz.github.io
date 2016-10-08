@@ -33,7 +33,7 @@ function initialize() {
     {name: "Styled Map"});
 
   var mapOptions = {
-    center: new google.maps.LatLng(43.82,-79.581),
+    center: new google.maps.LatLng(50.061636, 19.939091),
     scrollwheel: false,
     zoom: 12,
     disableDefaultUI: true,
