@@ -35,7 +35,7 @@ function initialize() {
   var mapOptions = {
     center: new google.maps.LatLng(50.061636, 19.939091),
     scrollwheel: false,
-    zoom: 12,
+    zoom: 9,
     disableDefaultUI: true,
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
@@ -44,10 +44,10 @@ function initialize() {
   };
 
   var mcmike_marker = new google.maps.Marker({
-    position: new google.maps.LatLng(43.8435273,-79.6182093),
+    position: new google.maps.LatLng(50.061636, 19.939091),
     url: 'mcmichael.com',
     icon: {
-        url: '/img/heart.svg',
+        url: 'img/church_icon.png',
         scaledSize: new google.maps.Size(40, 40),
         origin: new google.maps.Point(0,0),
         anchor: new google.maps.Point(0,12)
@@ -56,12 +56,12 @@ function initialize() {
   });
 
   var hotel_marker = new google.maps.Marker({
-    position: new google.maps.LatLng(43.818266,-79.5386726),
+    position: new google.maps.LatLng(49.940215,19.685524),
     url: '/',
     icon: {
-        url: '/img/hotel.svg',
+        url: 'img/party.png',
         scaledSize: new google.maps.Size(40, 40),
-        anchor: new google.maps.Point(15, 0)
+        anchor: new google.maps.Point(20, -20)
     },
     animation: google.maps.Animation.DROP
   });
